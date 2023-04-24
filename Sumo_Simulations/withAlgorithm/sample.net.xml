@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-19 12:46:11 by Eclipse SUMO netedit Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\manav\Desktop\Adaptive Traffic Light Sumo\sample.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\manav\Desktop\Adaptive Traffic Light Sumo\sample.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,-100.00,200.10,100.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":J1_0" function="internal">
+        <lane id=":J1_0_0" index="0" speed="6.51" length="9.03" shape="95.20,10.40 94.85,7.95 93.80,6.20 92.05,5.15 89.60,4.80"/>
+        <lane id=":J1_0_1" index="1" speed="7.33" length="11.73" shape="95.20,10.40 94.85,6.55 93.80,3.80 92.05,2.15 89.60,1.60"/>
+    </edge>
+    <edge id=":J1_2" function="internal">
+        <lane id=":J1_2_0" index="0" speed="13.89" length="20.80" shape="95.20,10.40 95.20,-10.40"/>
+        <lane id=":J1_2_1" index="1" speed="13.89" length="20.80" shape="98.40,10.40 98.40,-10.40"/>
+    </edge>
+    <edge id=":J1_4" function="internal">
+        <lane id=":J1_4_0" index="0" speed="9.84" length="21.99" shape="98.40,10.40 99.15,3.75 101.40,-1.00 105.15,-3.85 110.40,-4.80"/>
+        <lane id=":J1_4_1" index="1" speed="9.26" length="19.35" shape="98.40,10.40 99.15,5.15 101.40,1.40 105.15,-0.85 110.40,-1.60"/>
+    </edge>
+    <edge id=":J1_6" function="internal">
+        <lane id=":J1_6_0" index="0" speed="6.51" length="9.03" shape="110.40,4.80 107.95,5.15 106.20,6.20 105.15,7.95 104.80,10.40"/>
+        <lane id=":J1_6_1" index="1" speed="7.33" length="11.73" shape="110.40,4.80 106.55,5.15 103.80,6.20 102.15,7.95 101.60,10.40"/>
+    </edge>
+    <edge id=":J1_8" function="internal">
+        <lane id=":J1_8_0" index="0" speed="13.89" length="20.80" shape="110.40,4.80 89.60,4.80"/>
+        <lane id=":J1_8_1" index="1" speed="13.89" length="20.80" shape="110.40,1.60 89.60,1.60"/>
+    </edge>
+    <edge id=":J1_10" function="internal">
+        <lane id=":J1_10_0" index="0" speed="9.84" length="21.99" shape="110.40,1.60 103.75,0.85 99.00,-1.40 96.15,-5.15 95.20,-10.40"/>
+        <lane id=":J1_10_1" index="1" speed="9.26" length="19.35" shape="110.40,1.60 105.15,0.85 101.40,-1.40 99.15,-5.15 98.40,-10.40"/>
+    </edge>
+    <edge id=":J1_12" function="internal">
+        <lane id=":J1_12_0" index="0" speed="6.51" length="9.03" shape="104.80,-10.40 105.15,-7.95 106.20,-6.20 107.95,-5.15 110.40,-4.80"/>
+        <lane id=":J1_12_1" index="1" speed="7.33" length="11.73" shape="104.80,-10.40 105.15,-6.55 106.20,-3.80 107.95,-2.15 110.40,-1.60"/>
+    </edge>
+    <edge id=":J1_14" function="internal">
+        <lane id=":J1_14_0" index="0" speed="13.89" length="20.80" shape="104.80,-10.40 104.80,10.40"/>
+        <lane id=":J1_14_1" index="1" speed="13.89" length="20.80" shape="101.60,-10.40 101.60,10.40"/>
+    </edge>
+    <edge id=":J1_16" function="internal">
+        <lane id=":J1_16_0" index="0" speed="9.84" length="21.99" shape="101.60,-10.40 100.85,-3.75 98.60,1.00 94.85,3.85 89.60,4.80"/>
+        <lane id=":J1_16_1" index="1" speed="9.26" length="19.35" shape="101.60,-10.40 100.85,-5.15 98.60,-1.40 94.85,0.85 89.60,1.60"/>
+    </edge>
+    <edge id=":J1_18" function="internal">
+        <lane id=":J1_18_0" index="0" speed="6.51" length="9.03" shape="89.60,-4.80 92.05,-5.15 93.80,-6.20 94.85,-7.95 95.20,-10.40"/>
+        <lane id=":J1_18_1" index="1" speed="7.33" length="11.73" shape="89.60,-4.80 93.45,-5.15 96.20,-6.20 97.85,-7.95 98.40,-10.40"/>
+    </edge>
+    <edge id=":J1_20" function="internal">
+        <lane id=":J1_20_0" index="0" speed="13.89" length="20.80" shape="89.60,-4.80 110.40,-4.80"/>
+        <lane id=":J1_20_1" index="1" speed="13.89" length="20.80" shape="89.60,-1.60 110.40,-1.60"/>
+    </edge>
+    <edge id=":J1_22" function="internal">
+        <lane id=":J1_22_0" index="0" speed="9.84" length="21.99" shape="89.60,-1.60 96.25,-0.85 101.00,1.40 103.85,5.15 104.80,10.40"/>
+        <lane id=":J1_22_1" index="1" speed="9.26" length="19.35" shape="89.60,-1.60 94.85,-0.85 98.60,1.40 100.85,5.15 101.60,10.40"/>
+    </edge>
+
+    <edge id="-E0" from="J1" to="J0" priority="-1">
+        <lane id="-E0_0" index="0" speed="13.89" length="89.60" shape="89.60,4.80 0.00,4.80"/>
+        <lane id="-E0_1" index="1" speed="13.89" length="89.60" shape="89.60,1.60 0.00,1.60"/>
+    </edge>
+    <edge id="-E1" from="J1" to="J2" priority="-1">
+        <lane id="-E1_0" index="0" speed="13.89" length="89.60" shape="104.80,10.40 104.80,100.00"/>
+        <lane id="-E1_1" index="1" speed="13.89" length="89.60" shape="101.60,10.40 101.60,100.00"/>
+    </edge>
+    <edge id="-E2" from="J1" to="J3" priority="-1">
+        <lane id="-E2_0" index="0" speed="13.89" length="89.60" shape="110.40,-4.80 200.00,-4.80"/>
+        <lane id="-E2_1" index="1" speed="13.89" length="89.60" shape="110.40,-1.60 200.00,-1.60"/>
+    </edge>
+    <edge id="-E3" from="J1" to="J4" priority="-1">
+        <lane id="-E3_0" index="0" speed="13.89" length="89.60" shape="95.20,-10.40 95.20,-100.00"/>
+        <lane id="-E3_1" index="1" speed="13.89" length="89.60" shape="98.40,-10.40 98.40,-100.00"/>
+    </edge>
+    <edge id="E0" from="J0" to="J1" priority="-1">
+        <lane id="E0_0" index="0" speed="13.89" length="89.60" shape="0.00,-4.80 89.60,-4.80"/>
+        <lane id="E0_1" index="1" speed="13.89" length="89.60" shape="0.00,-1.60 89.60,-1.60"/>
+    </edge>
+    <edge id="E1" from="J2" to="J1" priority="-1">
+        <lane id="E1_0" index="0" speed="13.89" length="89.60" shape="95.20,100.00 95.20,10.40"/>
+        <lane id="E1_1" index="1" speed="13.89" length="89.60" shape="98.40,100.00 98.40,10.40"/>
+    </edge>
+    <edge id="E2" from="J3" to="J1" priority="-1" spreadType="center" shape="200.10,3.20 100.00,3.20">
+        <lane id="E2_0" index="0" speed="13.89" length="89.70" shape="200.10,4.80 110.40,4.80"/>
+        <lane id="E2_1" index="1" speed="13.89" length="89.70" shape="200.10,1.60 110.40,1.60"/>
+    </edge>
+    <edge id="E3" from="J4" to="J1" priority="-1">
+        <lane id="E3_0" index="0" speed="13.89" length="89.60" shape="104.80,-100.00 104.80,-10.40"/>
+        <lane id="E3_1" index="1" speed="13.89" length="89.60" shape="101.60,-100.00 101.60,-10.40"/>
+    </edge>
+
+    <tlLogic id="J1" type="static" programID="0" offset="0">
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="12" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="5" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="5" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="4" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="7" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="8" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="11" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="10" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrrrrrrrrrrrrrGGGGgg" />
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrryyyyyy" />
+        <phase duration="9" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="rrrrrrrrrrrrGGGGggrrrrrr" />
+        <phase duration="3" state="rrrrrrrrrrrryyyyyyrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+        <phase duration="9" state="rrrrrrGGGGggrrrrrrrrrrrr" />
+        <phase duration="3" state="rrrrrryyyyyyrrrrrrrrrrrr" />
+        <phase duration="8" state="GGGGggrrrrrrrrrrrrrrrrrr" />
+        <phase duration="3" state="yyyyyyrrrrrrrrrrrrrrrrrr" />
+    </tlLogic>
+
+    <junction id="J0" type="dead_end" x="0.00" y="0.00" incLanes="-E0_0 -E0_1" intLanes="" shape="0.00,0.00 0.00,6.40 0.00,0.00"/>
+    <junction id="J1" type="traffic_light" x="100.00" y="0.00" incLanes="E1_0 E1_1 E2_0 E2_1 E3_0 E3_1 E0_0 E0_1" intLanes=":J1_0_0 :J1_0_1 :J1_2_0 :J1_2_1 :J1_4_0 :J1_4_1 :J1_6_0 :J1_6_1 :J1_8_0 :J1_8_1 :J1_10_0 :J1_10_1 :J1_12_0 :J1_12_1 :J1_14_0 :J1_14_1 :J1_16_0 :J1_16_1 :J1_18_0 :J1_18_1 :J1_20_0 :J1_20_1 :J1_22_0 :J1_22_1" shape="93.60,10.40 106.40,10.40 106.84,8.18 107.40,7.40 108.18,6.84 109.18,6.51 110.40,6.40 110.40,-6.40 108.18,-6.84 107.40,-7.40 106.84,-8.18 106.51,-9.18 106.40,-10.40 93.60,-10.40 93.16,-8.18 92.60,-7.40 91.82,-6.84 90.82,-6.51 89.60,-6.40 89.60,6.40 91.82,6.84 92.60,7.40 93.16,8.18 93.49,9.18">
+        <request index="0"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
+        <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
+        <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
+        <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
+        <request index="4"  response="000000011111000000000000" foes="111100011111111100000000" cont="0"/>
+        <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
+        <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
+        <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
+        <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
+        <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="011111111100000000111100" cont="0"/>
+        <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
+        <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
+        <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
+        <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
+        <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100011111" cont="0"/>
+        <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
+        <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
+        <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
+        <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
+        <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
+        <request index="22" response="000000111100011111111100" foes="000000111100011111111100" cont="0"/>
+        <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
+    </junction>
+    <junction id="J2" type="dead_end" x="100.00" y="100.00" incLanes="-E1_0 -E1_1" intLanes="" shape="100.00,100.00 106.40,100.00 100.00,100.00"/>
+    <junction id="J3" type="dead_end" x="200.00" y="0.00" incLanes="-E2_0 -E2_1" intLanes="" shape="200.00,-0.00 200.00,-6.40 200.00,0.00"/>
+    <junction id="J4" type="dead_end" x="100.00" y="-100.00" incLanes="-E3_0 -E3_1" intLanes="" shape="100.00,-100.00 93.60,-100.00 100.00,-100.00"/>
+
+    <connection from="E0" to="-E3" fromLane="0" toLane="0" via=":J1_18_0" tl="J1" linkIndex="18" dir="r" state="o"/>
+    <connection from="E0" to="-E3" fromLane="0" toLane="1" via=":J1_18_1" tl="J1" linkIndex="19" dir="r" state="o"/>
+    <connection from="E0" to="-E2" fromLane="0" toLane="0" via=":J1_20_0" tl="J1" linkIndex="20" dir="s" state="o"/>
+    <connection from="E0" to="-E2" fromLane="1" toLane="1" via=":J1_20_1" tl="J1" linkIndex="21" dir="s" state="o"/>
+    <connection from="E0" to="-E1" fromLane="1" toLane="0" via=":J1_22_0" tl="J1" linkIndex="22" dir="l" state="o"/>
+    <connection from="E0" to="-E1" fromLane="1" toLane="1" via=":J1_22_1" tl="J1" linkIndex="23" dir="l" state="o"/>
+    <connection from="E1" to="-E0" fromLane="0" toLane="0" via=":J1_0_0" tl="J1" linkIndex="0" dir="r" state="O"/>
+    <connection from="E1" to="-E0" fromLane="0" toLane="1" via=":J1_0_1" tl="J1" linkIndex="1" dir="r" state="O"/>
+    <connection from="E1" to="-E3" fromLane="0" toLane="0" via=":J1_2_0" tl="J1" linkIndex="2" dir="s" state="O"/>
+    <connection from="E1" to="-E3" fromLane="1" toLane="1" via=":J1_2_1" tl="J1" linkIndex="3" dir="s" state="O"/>
+    <connection from="E1" to="-E2" fromLane="1" toLane="0" via=":J1_4_0" tl="J1" linkIndex="4" dir="l" state="o"/>
+    <connection from="E1" to="-E2" fromLane="1" toLane="1" via=":J1_4_1" tl="J1" linkIndex="5" dir="l" state="o"/>
+    <connection from="E2" to="-E1" fromLane="0" toLane="0" via=":J1_6_0" tl="J1" linkIndex="6" dir="r" state="o"/>
+    <connection from="E2" to="-E1" fromLane="0" toLane="1" via=":J1_6_1" tl="J1" linkIndex="7" dir="r" state="o"/>
+    <connection from="E2" to="-E0" fromLane="0" toLane="0" via=":J1_8_0" tl="J1" linkIndex="8" dir="s" state="o"/>
+    <connection from="E2" to="-E0" fromLane="1" toLane="1" via=":J1_8_1" tl="J1" linkIndex="9" dir="s" state="o"/>
+    <connection from="E2" to="-E3" fromLane="1" toLane="0" via=":J1_10_0" tl="J1" linkIndex="10" dir="l" state="o"/>
+    <connection from="E2" to="-E3" fromLane="1" toLane="1" via=":J1_10_1" tl="J1" linkIndex="11" dir="l" state="o"/>
+    <connection from="E3" to="-E2" fromLane="0" toLane="0" via=":J1_12_0" tl="J1" linkIndex="12" dir="r" state="O"/>
+    <connection from="E3" to="-E2" fromLane="0" toLane="1" via=":J1_12_1" tl="J1" linkIndex="13" dir="r" state="O"/>
+    <connection from="E3" to="-E1" fromLane="0" toLane="0" via=":J1_14_0" tl="J1" linkIndex="14" dir="s" state="O"/>
+    <connection from="E3" to="-E1" fromLane="1" toLane="1" via=":J1_14_1" tl="J1" linkIndex="15" dir="s" state="O"/>
+    <connection from="E3" to="-E0" fromLane="1" toLane="0" via=":J1_16_0" tl="J1" linkIndex="16" dir="l" state="o"/>
+    <connection from="E3" to="-E0" fromLane="1" toLane="1" via=":J1_16_1" tl="J1" linkIndex="17" dir="l" state="o"/>
+
+    <connection from=":J1_0" to="-E0" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_0" to="-E0" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":J1_2" to="-E3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_2" to="-E3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_4" to="-E2" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_4" to="-E2" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":J1_6" to="-E1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_6" to="-E1" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":J1_8" to="-E0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_8" to="-E0" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_10" to="-E3" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_10" to="-E3" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":J1_12" to="-E2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_12" to="-E2" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":J1_14" to="-E1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_14" to="-E1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_16" to="-E0" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_16" to="-E0" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":J1_18" to="-E3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_18" to="-E3" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":J1_20" to="-E2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_20" to="-E2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_22" to="-E1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_22" to="-E1" fromLane="1" toLane="1" dir="l" state="M"/>
+
+</net>
