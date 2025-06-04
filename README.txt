@@ -1,3 +1,12 @@
+# Traffic Control Algorithm 
+
+This repository contains the code for a "Dynamic Traffic Light Controller Algorithm", created as a part of a university team project.
+This is a fork of the original repository by [@rithika1910](https://github.com/rithika1910/TrafficControlAlgo).
+
+This was developed during my Bachelor's degree as part of a team project.
+
+
+
 --- Primary code files
 
 1. algorithm.py -> Take jamFactors as inputs and output a road and time to give green signal for
